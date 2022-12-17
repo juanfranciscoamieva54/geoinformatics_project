@@ -82,14 +82,14 @@ use_cases= \
     
     #ID : [[parameters_acquisition_1, parameters_acquisition_2], 
     #[AOI_coreg_topleft_x , AOI_coreg_topleft_y , AOI_coreg_bottomright_x , AOI_coreg_bottomright_y] , 
-    #[AOI_cd_topleft_x , AOI_cd_topleft_y , AOI_cd_bottomright_x , AOI_cd_bottomright_y],
+    #coreg_band,
+    #[AOI_cd_topleft_x , AOI_cd_topleft_y],
     #CD_threshold,
     #[iterations_coreg_number,
     #[radius_coreg_1,riadius_coreg_2],
     #rank_coreg,
-    #pyramid_coreg_levels],
-    #[bandcva_x,bandcva_y],
-    #single_difference_band]
+    #pyramid_coreg_levels]
+    
     #'Be_01': [[prs_img_list['9914'],prs_img_list['31175']],[200,330,1104,1149],'r',[50,25],75,[8,[70,70],4,5],[560,730],760],
     #'LA': [[prs_img_list['8384'],prs_img_list['33180']],[None,None,None,None],'r',[400,300],90,[8,[70,70],4,5],[560,730],760],
     #'Ind_urb_riv': [[prs_img_list['5454'],prs_img_list['19549']],[None,None,None,None],'g',[200,210],90,[8,[70,70],4,5],[560,730],760],
@@ -98,20 +98,20 @@ use_cases= \
     #'Shanghai': [[prs_img_list['22094'],prs_img_list['23762']],[None,None,None,None],'r',[200,200],90,[8,[70,70],4,5],[560,730],760],
     #'NY': [[prs_img_list['4879'],prs_img_list['24996']],[None,None,None,None],'b',[500,400],90,[8,[70,70],4,5],[560,730],760],
     
-    'Po_01': [[prs_img_list['4449'],prs_img_list['26914']],[None,None,None,None],'b',[200,150],90,[8,[70,70],4,5],[560,730],760],
-    'Be_01': [[prs_img_list['9914'],prs_img_list['31175']],[200,330,1104,1149],'r',[250,60],75,[8,[70,70],4,5],[560,730],760],
-    'Indo_01': [[prs_img_list['22846'],prs_img_list['27753']],[None,None,None,None],'g',[280,125],80,[8,[70,70],4,5],[560,730],760],
-    'Strom_01': [[prs_img_list['792'],prs_img_list['5953']],[349,334,861,846],'g',[0,0],90,[8,[20,20],4,5],[560,730],760],
-    'Rome_01': [[prs_img_list['9235'],prs_img_list['30163']],[None,None,None,None],'r',[205,200],90,[8,[70,70],4,5],[560,730],760],
-    'Aus_fire_01': [[prs_img_list['5067'],prs_img_list['18846']],[None,None,None,None],'r',[450,500],90,[8,[70,70],4,5],[560,730],760],
-    'Aus_mine': [[prs_img_list['9318'],prs_img_list['10381']],[None,None,None,None],'g',[200,200],90,[8,[40,40],4,5],[560,730],760],
-    'Lake_Frome': [[prs_img_list['20686'],prs_img_list['20437']],[None,None,None,None],'g',[400,500],90,[8,[70,70],4,5],[560,730],760],
-    'Po_Mincio_01': [[prs_img_list['9409'],prs_img_list['30245']],[None,None,None,None],'g',[430,603],80,[8,[70,70],4,5],[560,730],760], #430,603
-    'LA': [[prs_img_list['8384'],prs_img_list['33180']],[None,None,None,None],'r',[570,570],90,[8,[70,70],4,5],[560,730],760],
-    'Ind_urb_riv': [[prs_img_list['5454'],prs_img_list['19549']],[None,None,None,None],'g',[380,400],90,[8,[70,70],4,5],[560,730],760],
-    'London': [[prs_img_list['7208'],prs_img_list['33334']],[None,None,None,None],'r',[550,550],90,[8,[70,70],4,5],[560,730],760],
-    'Lagos_Nig': [[prs_img_list['14140'],prs_img_list['17036']],[None,None,None,None],'r',[700,650],90,[8,[70,70],4,5],[560,730],760],
-    'Shanghai': [[prs_img_list['22094'],prs_img_list['23762']],[None,None,None,None],'r',[450,500],90,[8,[70,70],4,5],[560,730],760],
-    'NY': [[prs_img_list['4879'],prs_img_list['24996']],[None,None,None,None],'b',[800,500],90,[8,[70,70],4,5],[560,730],760],
-    'Greece': [[prs_img_list['8405'],prs_img_list['32087']],[None,None,None,None],'b',[200,200],90,[8,[70,70],4,5],[560,730],760]
+    'Po_01': [[prs_img_list['4449'],prs_img_list['26914']],[None,None,None,None],'b',[200,150],90,[8,[70,70],4,5]],
+    'Be_01': [[prs_img_list['9914'],prs_img_list['31175']],[200,330,1104,1149],'r',[250,60],75,[8,[70,70],4,5]],
+    'Indo_01': [[prs_img_list['22846'],prs_img_list['27753']],[None,None,None,None],'g',[280,125],80,[8,[70,70],4,5]],
+    'Strom_01': [[prs_img_list['792'],prs_img_list['5953']],[349,334,861,846],'g',[0,0],90,[8,[20,20],4,5]],
+    'Rome_01': [[prs_img_list['9235'],prs_img_list['30163']],[None,None,None,None],'r',[205,200],90,[8,[70,70],4,5]],
+    'Aus_fire_01': [[prs_img_list['5067'],prs_img_list['18846']],[None,None,None,None],'r',[450,500],90,[8,[70,70],4,5]],
+    'Aus_mine': [[prs_img_list['9318'],prs_img_list['10381']],[None,None,None,None],'g',[200,200],90,[8,[40,40],4,5]],
+    'Lake_Frome': [[prs_img_list['20686'],prs_img_list['20437']],[None,None,None,None],'g',[400,500],90,[8,[70,70],4,5]],
+    'Po_Mincio_01': [[prs_img_list['9409'],prs_img_list['30245']],[None,None,None,None],'g',[430,603],80,[8,[70,70],4,5]], #430,603
+    'LA': [[prs_img_list['8384'],prs_img_list['33180']],[None,None,None,None],'r',[570,570],90,[8,[70,70],4,5]],
+    'Ind_urb_riv': [[prs_img_list['5454'],prs_img_list['19549']],[None,None,None,None],'g',[380,400],90,[8,[70,70],4,5]],
+    'London': [[prs_img_list['7208'],prs_img_list['33334']],[None,None,None,None],'r',[550,550],90,[8,[70,70],4,5]],
+    'Lagos_Nig': [[prs_img_list['14140'],prs_img_list['17036']],[None,None,None,None],'r',[700,650],90,[8,[70,70],4,5]],
+    'Shanghai': [[prs_img_list['22094'],prs_img_list['23762']],[None,None,None,None],'r',[450,500],90,[8,[70,70],4,5]],
+    'NY': [[prs_img_list['4879'],prs_img_list['24996']],[None,None,None,None],'b',[800,500],90,[8,[70,70],4,5]],
+    'Greece': [[prs_img_list['8405'],prs_img_list['32087']],[None,None,None,None],'b',[200,200],90,[8,[70,70],4,5]]
     }
