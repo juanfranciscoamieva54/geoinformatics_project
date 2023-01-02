@@ -94,7 +94,6 @@ use_cases= \
     'Po_01': [[prs_img_list['4449'],prs_img_list['26914']],[None,None,None,None],'b',[200,150],90,[8,[70,70],4,5]],
     'Be_01': [[prs_img_list['9914'],prs_img_list['31175']],[200,330,1104,1149],'r',[250,60],75,[8,[70,70],4,5]],
     'Indo_01': [[prs_img_list['22846'],prs_img_list['27753']],[None,None,None,None],'g',[280,125],80,[8,[70,70],4,5]],
-    'Strom_01': [[prs_img_list['792'],prs_img_list['5953']],[349,334,861,846],'g',[0,0],90,[8,[20,20],4,5]],
     'Rome_01': [[prs_img_list['9235'],prs_img_list['30163']],[None,None,None,None],'r',[205,200],90,[8,[70,70],4,5]],
     'Aus_fire_01': [[prs_img_list['5067'],prs_img_list['18846']],[None,None,None,None],'r',[450,500],90,[8,[70,70],4,5]],
     'Aus_mine': [[prs_img_list['9318'],prs_img_list['10381']],[None,None,None,None],'g',[200,200],90,[8,[40,40],4,5]],
