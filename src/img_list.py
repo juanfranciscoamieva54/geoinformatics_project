@@ -89,14 +89,7 @@ use_cases= \
     #[radius_coreg_1,riadius_coreg_2],
     #rank_coreg,
     #pyramid_coreg_levels]
-    
-    #'Be_01': [[prs_img_list['9914'],prs_img_list['31175']],[200,330,1104,1149],'r',[50,25],75,[8,[70,70],4,5],[560,730],760],
-    #'LA': [[prs_img_list['8384'],prs_img_list['33180']],[None,None,None,None],'r',[400,300],90,[8,[70,70],4,5],[560,730],760],
-    #'Ind_urb_riv': [[prs_img_list['5454'],prs_img_list['19549']],[None,None,None,None],'g',[200,210],90,[8,[70,70],4,5],[560,730],760],
-    #'London': [[prs_img_list['7208'],prs_img_list['33334']],[None,None,None,None],'r',[400,400],90,[8,[70,70],4,5],[560,730],760],
-    #'Lagos_Nig': [[prs_img_list['14140'],prs_img_list['17036']],[None,None,None,None],'r',[500,400],90,[8,[70,70],4,5],[560,730],760],
-    #'Shanghai': [[prs_img_list['22094'],prs_img_list['23762']],[None,None,None,None],'r',[200,200],90,[8,[70,70],4,5],[560,730],760],
-    #'NY': [[prs_img_list['4879'],prs_img_list['24996']],[None,None,None,None],'b',[500,400],90,[8,[70,70],4,5],[560,730],760],
+
     
     'Po_01': [[prs_img_list['4449'],prs_img_list['26914']],[None,None,None,None],'b',[200,150],90,[8,[70,70],4,5]],
     'Be_01': [[prs_img_list['9914'],prs_img_list['31175']],[200,330,1104,1149],'r',[250,60],75,[8,[70,70],4,5]],
@@ -106,7 +99,7 @@ use_cases= \
     'Aus_fire_01': [[prs_img_list['5067'],prs_img_list['18846']],[None,None,None,None],'r',[450,500],90,[8,[70,70],4,5]],
     'Aus_mine': [[prs_img_list['9318'],prs_img_list['10381']],[None,None,None,None],'g',[200,200],90,[8,[40,40],4,5]],
     'Lake_Frome': [[prs_img_list['20686'],prs_img_list['20437']],[None,None,None,None],'g',[400,500],90,[8,[70,70],4,5]],
-    'Po_Mincio_01': [[prs_img_list['9409'],prs_img_list['30245']],[None,None,None,None],'g',[430,603],80,[8,[70,70],4,5]], #430,603
+    'Clark_reef': [[prs_img_list['8803'],prs_img_list['23560']],[None,None,None,None],'g',[0,0],90,[8,[70,70],4,5],[560,730],760],
     'LA': [[prs_img_list['8384'],prs_img_list['33180']],[None,None,None,None],'r',[570,570],90,[8,[70,70],4,5]],
     'Ind_urb_riv': [[prs_img_list['5454'],prs_img_list['19549']],[None,None,None,None],'g',[380,400],90,[8,[70,70],4,5]],
     'London': [[prs_img_list['7208'],prs_img_list['33334']],[None,None,None,None],'r',[550,550],90,[8,[70,70],4,5]],
