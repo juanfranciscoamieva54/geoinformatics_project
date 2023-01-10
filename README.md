@@ -1,3 +1,3 @@
-# Analysing PRISMA images - Geoinformatics project (Amieva Juan Francisco: - Austoni Alessandro: 976780)
+# Analysing PRISMA images - Geoinformatics project (Amieva Juan Francisco: 974722 - Austoni Alessandro: 976780)
 The main focus of the project is to apply change detection (CD) algorithms to remote sensing images acquired on different dates from the PRISMA hyperspectral satellite and to evaluate the benefits of machine learning (ML) techniques for their analysis.
 Different types of scenes can be considered, ranging from urban areas, volcanic complexes, coastal or vegetated areas. The general target will be the detection of changes. The efficiency of the proposed approaches will be evaluated by analysis of the model statistics on a collection of PRISMA images.
